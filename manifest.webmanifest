@@ -1,0 +1,16 @@
+{
+  "name": "Universal File Editor & Viewer",
+  "short_name": "UFEV",
+  "description": "One App. All Files. Anywhere.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#070714",
+  "theme_color": "#130d28",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
