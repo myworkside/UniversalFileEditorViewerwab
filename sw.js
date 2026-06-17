@@ -1,5 +1,14 @@
-const CACHE_NAME = "ufev-landing-v1";
-const ASSETS = ["./", "./index.html", "./styles.css", "./script.js", "./manifest.webmanifest", "./icon.svg"];
+const CACHE_NAME = "ufev-landing-v2";
+const ASSETS = [
+  "./",
+  "./index.html",
+  "./styles.css",
+  "./script.js",
+  "./manifest.webmanifest",
+  "./app-icon-192.png",
+  "./app-icon-512.png",
+  "./icon.svg"
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS)));
